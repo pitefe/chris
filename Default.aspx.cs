@@ -10,12 +10,18 @@ using System.Web.UI.HtmlControls;
 
 public partial class _Default : System.Web.UI.Page 
 {
+    int a = 0;
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
+        if(a%2==0)
         TextBox1.Text = "fdghhola";
+        else
+        TextBox1.Text = "gbcousagvbcovaño";
+        a++;
+        
     }
 }
