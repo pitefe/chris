@@ -17,11 +17,17 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        if(a%2==0)
-        TextBox1.Text = "fdghhola";
+        TextBox2.Text = a.ToString();
+        if (a % 2 == 0)
+        {
+            TextBox1.Text = "fdghhola";
+        }
         else
-        TextBox1.Text = "gbcousagvbcovaño";
+        {
+            TextBox1.Text = "gbcousagvbcovaño";
+        }
         a++;
+        
         
     }
 }
